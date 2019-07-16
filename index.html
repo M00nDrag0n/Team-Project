@@ -1,20 +1,43 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
   <head>
-    <link   <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet" type=text/css>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet" type=text/css>
     <link rel="stylesheet" href="css/styles.css">
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <!-- <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script> -->
     <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
     <script src="js/scripts.js"></script>
     <meta charset="utf-8">
     <title>Monsters</title>
   </head>
+
+
   <body>
     <div class="container">
     <h1>Create a Monster!</h1>
       <p>You'll be able to build your own monster using different body parts!</p>
     <h2>Pick your features to design your monster:</h2>
+    <form id= "monster">
+
+
+      <div class = "body">
+        <h4> Select your wings!</h4><!-- <fieldset> -->
+          <!-- <select id="body"> -->
+          <!-- multiple= "multiple"
+          size= 5 -->
+           <!-- <option value = "[link to eyes]">Eyes</option>
+           <option value = "[link to arms]">Arms</option>
+           <option value = "[link to mouth]">Mouth</option>
+           <option value = "[link to spikes]">Spikes</option>
+           <option value = "[link to wings]">Wings</option> -->
+           <input type="checkbox" name="monster-wings" value="butterfly">Butterfly<br>
+           <input type="checkbox" name="monster-wings" value="leather">Leather<br>
+           <input type="checkbox" name="monster-wings" value="feather">Wings<br>
+
+         </form>
+         <input type="submit">
+        <div id="result">
     <img src="https://junoteam.com/wp-content/uploads/2016/05/13ccpng.png">
     </div>
+  </div>
   </body>
 </html>
