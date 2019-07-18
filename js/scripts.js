@@ -2,23 +2,11 @@ $(document).ready(function() {
   $("form#monster").submit(function(event) {
     event.preventDefault();
 
-  // >>>>>>>> Business Logic <<<<<<<<<
-    var bodyParts = function(){
-      if (wings === true)
-        return
-        //https://www.learnhowtoprogram.com/intro-to-programming-evening/arrays-looping-8a0d105a-0895-42ec-b85c-d45f7f2eba79/leap-year-part-2
-        $("")
-      display = "hey"
-    }
-// >>>>>>>>  User Interface Logic <<<<<<<<<<<
-
-var wings = "Wings";
-var legs = "Legs";
-var arms =" Arms";
-var eye = "Eyes";
-var spikyFeatures = ["Scales", "horns"];
-
-
+    var imageWing = function monster() {
+      if ("wing1")
+      show (img = https://static.turbosquid.com/Preview/001180/063/1G/3D-feather-wings_0.jpg)
+}     if ("wing2")
+      show (img= )
 
 
  $("#result").show();
