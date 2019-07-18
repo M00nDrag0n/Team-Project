@@ -19,7 +19,7 @@
     <form id= "monster">
 
 
-      <div class = "body">
+      <div class = "wings">
         <h4> Select your wings!</h4><!-- <fieldset> -->
           <!-- <select id="body"> -->
           <!-- multiple= "multiple"
@@ -29,14 +29,33 @@
            <option value = "[link to mouth]">Mouth</option>
            <option value = "[link to spikes]">Spikes</option>
            <option value = "[link to wings]">Wings</option> -->
-           <input type="checkbox" name="monster-wings" value="butterfly">Butterfly<br>
-           <input type="checkbox" name="monster-wings" value="leather">Leather<br>
-           <input type="checkbox" name="monster-wings" value="feather">Wings<br>
+           <input type="radio" name="questionOne" value="butterfly-wings">Butterfly<br>
+           <input type="radio" name="questionOne"
+           value="leather-wings">Leather<br>
+           <input type="radio" name="questionOne"
+           value="feather-wings">Feather<br></br>
+
+        <h4> Select your legs!</h4><!-- <fieldset> -->
+          <input type="radio" name="questionTwo"
+          value="x-legs">X<br>
+          <input type="radio" name="questionTwo"
+          value="y-legs">Y<br>
+          <input type="radio" name="questionTwo"
+          value="z-legs">Z<br></br>
+
+          <h4> Select your arms!</h4><!-- <fieldset> -->
+            <input type="radio" name="questionThree"
+            value="x-arms">X<br>
+            <input type="radio" name="questionThree"
+            value="y-arms">Y<br>
+            <input type="radio" name="questionThree"
+            value="z-arms">Z<br></br>
 
          </form>
          <input type="submit">
         <div id="result">
     <img src="https://junoteam.com/wp-content/uploads/2016/05/13ccpng.png">
+
     </div>
   </div>
   </body>
