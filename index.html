@@ -2,7 +2,7 @@
 <html lang="en" dir="ltr">
   <head>
     <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet" type=text/css>
-    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/styles.css" type="text/css">
     <!-- <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script> -->
     <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
     <script src="js/scripts.js"></script>
@@ -12,50 +12,76 @@
 
 
   <body>
-    <div class="container">
+    <!-- <div class="container"> -->
     <h1>Create a Monster!</h1>
       <p>You'll be able to build your own monster using different body parts!</p>
     <h2>Pick your features to design your monster:</h2>
+    <div class="container">
     <form id= "monster">
+    </div>
 
+    <div class = "wings">
+           <h4> Select your wings!</h4><!-- <fieldset> -->
+             <!-- <select id="body"> -->
+             <!-- multiple= "multiple"
+             size= 5 -->
+              <!-- <option value = "[link to eyes]">Eyes</option>
+              <option value = "[link to arms]">Arms</option>
+              <option value = "[link to mouth]">Mouth</option>
+              <option value = "[link to spikes]">Spikes</option>
+              <option value = "[link to wings]">Wings</option> -->
+              <input type="radio" name="questionOne" value="butterfly-wings">Butterfly<br>
+              <input type="radio" name="questionOne"
+              value="leather-wings">Leather<br>
+              <input type="radio" name="questionOne"
+              value="feather-wings">Feather<br></br>
 
-      <div class = "wings">
-        <h4> Select your wings!</h4><!-- <fieldset> -->
-          <!-- <select id="body"> -->
-          <!-- multiple= "multiple"
-          size= 5 -->
-           <!-- <option value = "[link to eyes]">Eyes</option>
-           <option value = "[link to arms]">Arms</option>
-           <option value = "[link to mouth]">Mouth</option>
-           <option value = "[link to spikes]">Spikes</option>
-           <option value = "[link to wings]">Wings</option> -->
-           <input type="radio" name="questionOne" value="butterfly-wings">Butterfly<br>
-           <input type="radio" name="questionOne"
-           value="leather-wings">Leather<br>
-           <input type="radio" name="questionOne"
-           value="feather-wings">Feather<br></br>
+           <h4> Select your legs!</h4><!-- <fieldset> -->
+             <input type="radio" name="questionTwo"
+             value="x-legs">X<br>
+             <input type="radio" name="questionTwo"
+             value="y-legs">Y<br>
+             <input type="radio" name="questionTwo"
+             value="z-legs">Z<br></br>
 
-        <h4> Select your legs!</h4><!-- <fieldset> -->
-          <input type="radio" name="questionTwo"
-          value="x-legs">X<br>
-          <input type="radio" name="questionTwo"
-          value="y-legs">Y<br>
-          <input type="radio" name="questionTwo"
-          value="z-legs">Z<br></br>
+             <h4> Select your arms!</h4><!-- <fieldset> -->
+               <input type="radio" name="questionThree"
+               value="x-arms">X<br>
+               <input type="radio" name="questionThree"
+               value="y-arms">Y<br>
+               <input type="radio" name="questionThree"
+               value="z-arms">Z<br></br>
+               
 
-          <h4> Select your arms!</h4><!-- <fieldset> -->
-            <input type="radio" name="questionThree"
-            value="x-arms">X<br>
-            <input type="radio" name="questionThree"
-            value="y-arms">Y<br>
-            <input type="radio" name="questionThree"
-            value="z-arms">Z<br></br>
+    <div class="body1">
+      <img src="/Users/Guest/desktop/Team-Project/Images/blank-body-1.png"
+    </div>
+
+    <div class="wing1">
+      <img src="/Users/Guest/desktop/Team-Project/Images/colorful-fairy-wings.png"
+    </div>
+
+    <div class="arm1">
+      <img src="/Users/Guest/desktop/Team-Project/Images/arms-clipart-cartoon-hand-15.png"
+    </div>
+
+    <div class="leg1">
+      <img src="/Users/Guest/desktop/Team-Project/Images/orange-red-long-claws.jpg"
+    </div>
+
+    <div class="eye1">
+      <img src="/Users/Guest/desktop/Team-Project/Images/very-realistic-eyes-pale-blue.png"
+    </div>
+
+    <div class="mouth1">
+      <img src="/Users/Guest/desktop/Team-Project/Images/toothy-mouth-1.png"
+  </div>
+
 
          </form>
          <input type="submit">
         <div id="result">
     <img src="https://junoteam.com/wp-content/uploads/2016/05/13ccpng.png">
-
     </div>
   </div>
   </body>
