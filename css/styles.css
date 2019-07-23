@@ -1,39 +1,3 @@
-body {
-  font-family:'Spectral';
-  font-size: 19px;
-}
-
-
-.body1 {
- height: 300px;
- width: 400px;
- position: absolute;
- top: 800px;
-}
-.wing1 {
- height: 400px;
- width: 400px;
-}
-
-.arm1 {
- height: 400px;
- width: 400px;
-}
-
-.eye1{
-  height: 400px;
-  width: 400px;
-
-}
-
-.mouth1 {
-  height: 400px;
-  width: 400px;
-
-}
-
 #result {
   display: none;
 }
-
-};
