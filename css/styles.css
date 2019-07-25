@@ -1,3 +1,150 @@
-#result {
-  display: none;
+body {
+ font-family: 'Spectral';
+ font-size: 19px;
+
 }
+
+h1 {
+  text-align: center;
+
+}
+
+h2 {
+  text-align: center;
+}
+
+#wings {
+
+
+}
+
+
+
+#arms {
+
+}
+
+
+
+#legs {
+
+}
+
+
+
+#result {
+ text-align: center;
+ text: solid;
+ position: absolute;
+ top: 800px;
+ z-index: 2;
+}
+
+#wings1 {
+
+  position: absolute;
+
+  top: 950px;
+  right:200px;
+  z-index: 1;
+}
+
+#wings2 {
+  text-align: center;
+  position: absolute;
+  top: 900px;
+  left: -5px;
+  z-index: 1;
+}
+
+#wings2 img {
+  height: 500px;
+  width: 1000px;
+}
+
+#wings3 {
+  text-align: center;
+  position: absolute;
+  top: 800px;
+  left: -10px;
+  z-index: 1;
+}
+
+#wings3 img {
+
+  height: 500px;
+  width: 1000px;
+
+}
+
+#eyes1 {
+
+ position: absolute;
+  top: 900px;
+  left: 400px;
+  z-index: 3;
+}
+
+#eyes2 {
+
+  position: absolute;
+  top: 870px;
+  left: 500px;
+  z-index: 3;
+}
+
+#eyes2 img {
+
+  height: 200px;
+  width: 100px;
+
+}
+
+#eyes3 {
+  position: absolute;
+  top: 800px;
+  left: 300px;
+  z-index: 3;
+
+}
+
+#mouth1 {
+  position: absolute;
+  top: 1200px;
+  left: 300px;
+  z-index: 5;
+}
+
+#mouth2 {
+  position: absolute;
+  top: 1200px;
+  left: 300px;
+  z-index: 5;
+}
+
+#mouth3 {
+  position: absolute;
+  top: 1000px;
+  left: 300px;
+  z-index: 5;
+}
+#claws1 {
+  position: absolute;
+  top: 1000px;
+  left: 300px;
+  z-index: 5;
+}
+
+#claws2 {
+    position: absolute;
+    top: 1000px;
+    left: 300px;
+    z-index: 5;
+  }
+
+#claws3 {
+      position: absolute;
+      top: 1000px;
+      left: 300px;
+      z-index: 5;
+    }
