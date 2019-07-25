@@ -43,10 +43,16 @@ h2 {
 #wings1 {
 
   position: absolute;
-
-  top: 950px;
-  right:200px;
+  top: 800px;
+  right:100px;
+  left: -70px;
   z-index: 1;
+}
+
+#wings1 img {
+ height: 1300px;
+ width: 1100px;
+
 }
 
 #wings2 {
@@ -130,21 +136,32 @@ h2 {
 }
 #claws1 {
   position: absolute;
-  top: 1000px;
-  left: 300px;
-  z-index: 5;
+  top: 1250px;
+  left: 100px;
+  z-index: 3;
+}
+
+#claws1 img {
+height: 250px;
+width: 800px;
+
 }
 
 #claws2 {
     position: absolute;
-    top: 1000px;
-    left: 300px;
-    z-index: 5;
+    top: 1250px;
+    left: 10px;
+    z-index: 3;
   }
 
 #claws3 {
       position: absolute;
-      top: 1000px;
-      left: 300px;
-      z-index: 5;
+      top: 1100px;
+      left: 50px;
+      z-index: 3;
     }
+
+#claws3 img {
+  height: 250px;
+  width: 250px;
+}
